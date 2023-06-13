@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T18:07:04.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.3.8" etag="2fREwO15jJfRsxnBordU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T19:58:07.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8sHsOcjr8uM-vHWJjyme" version="21.3.8" type="github">
   <diagram name="Page-1" id="v39cyToKjADJRDiGtKNt">
-    <mxGraphModel>
+    <mxGraphModel dx="1560" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kRj391nr8_1g824by9Xk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kRj391nr8_1g824by9Xk-2" target="kRj391nr8_1g824by9Xk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kRj391nr8_1g824by9Xk-2" target="kRj391nr8_1g824by9Xk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kRj391nr8_1g824by9Xk-2" target="kRj391nr8_1g824by9Xk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-2" value="isServicing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-3" value="serviceAlarms" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-6" value="set To False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kRj391nr8_1g824by9Xk-5" target="kRj391nr8_1g824by9Xk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-5" value="init" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-7" value="getTriggeredAlarmId()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="360" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-9" value="getIsServicing()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="548" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-20" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRj391nr8_1g824by9Xk-11" target="kRj391nr8_1g824by9Xk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kRj391nr8_1g824by9Xk-11" target="kRj391nr8_1g824by9Xk-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-11" value="is Alarm Enabled?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-14" value="Get Next Alarm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRj391nr8_1g824by9Xk-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="kRj391nr8_1g824by9Xk-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-18" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kRj391nr8_1g824by9Xk-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-19" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRj391nr8_1g824by9Xk-17" target="kRj391nr8_1g824by9Xk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-17" value="Checked All Alarms" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-22" value="getCurrentTime" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRj391nr8_1g824by9Xk-24" value="currentTime &amp;gt; Alarm.nextTrigger" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="900" width="160" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
